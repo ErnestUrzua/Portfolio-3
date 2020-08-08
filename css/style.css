@@ -11,12 +11,54 @@ nav .brand-logo {
   color: #444;
 }
 
+a {
+  color:#3b6552;
+}
+
 p {
   line-height: 2rem;
 }
 
+html {
+  font-family: Montserrat;
+}
+
+footer {
+  padding:0%;
+  
+}
+
+.row {
+  margin:0%;
+}
+
+.collection a.collection-item {
+  display: block;
+  -webkit-transition: .25s;
+  transition: .25s;
+  color: #e3532f;
+}
+
+.green {
+  color:#3b6552;
+  background-color: #3b6552 !important;
+}
+
+.orange {
+  color: #e3532f;
+  background-color: #e3532f !important;
+}
+
+.white {
+  background-color: #b6bbae !important;
+}
+
+.orange-text {
+  color: #e3532f !important;
+}
+
 .sidenav-trigger {
-  color: #26a69a;
+  color: #e3532f;
 }
 
 .parallax-container {
@@ -54,4 +96,13 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.transition1 {
+  transition: transform .2s; /* Animation */
+}
+
+.transition1:hover {
+  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  filter: saturate(2);
 }
