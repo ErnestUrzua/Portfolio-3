@@ -1,15 +1,15 @@
-# Responsive-portfolio
+# Portfolio 3
 
 ## Objective
 - Create portfolio website that is reactive to multiple resolutions, devices and windows.
 
 ### Links
-[Link to deployed page](https://ernesturzua.github.io/Portfolio/ "app website")    	  
-[Link to Github repo](https://github.com/ErnestUrzua/Portfolio/ "Github Repo")
+[Link to deployed page](https://ernesturzua.github.io/Portfolio-3/ "app website")    	  
+[Link to Github repo](https://github.com/ErnestUrzua/Portfolio-3 "Github Repo")
 
 ## Application specifications
 - must be have a responsive layout.
-- must be have responsive Images.
+- must have responsive Images.
 - must pass `HTML` validation service for each `.html` file.
 - must be function and deployed on web.
 - must include `.README` file describing project
@@ -30,6 +30,6 @@
 - `lg` margins will be present on left and right side of screen.
 
 ## Screenshots
-![alt text](/assets/aboutme.jpg "about me")
-![alt text](/assets/portfolio.jpg "portfolio")
+![About Me](/assets/aboutMe.png "about me")
+![Portfolio](/assets/portfolio.png "portfolio")
 
