@@ -15,6 +15,10 @@ a {
   color:#3b6552;
 }
 
+a.hover {
+  color:#b6bbae !important;
+}
+
 p {
   line-height: 2rem;
 }
@@ -25,7 +29,11 @@ html {
 
 footer {
   padding:0%;
-  
+}
+
+.footer-icons {
+  font-size: xx-large;
+  padding: 5px;
 }
 
 .row {
@@ -98,11 +106,16 @@ footer.page-footer {
   margin: 0;
 }
 
+.filter1 {
+  filter: brightness(.8);
+}
+
 .transition1 {
   transition: transform .2s; /* Animation */
+  transform: translate(-10px, 10px);
 }
 
 .transition1:hover {
-  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  filter: saturate(2);
+  transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  /* filter: saturate(2); */
 }
