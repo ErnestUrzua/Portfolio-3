@@ -15,7 +15,7 @@ a {
   color:#3b6552;
 }
 
-a.hover {
+a:hover {
   color:#b6bbae !important;
 }
 
@@ -29,6 +29,11 @@ html {
 
 footer {
   padding:0%;
+}
+
+.card-icons {
+  font-size: xx-large;
+  padding: 5px;
 }
 
 .footer-icons {
@@ -118,4 +123,20 @@ footer.page-footer {
 .transition1:hover {
   transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   /* filter: saturate(2); */
+}
+
+.animation1 {
+  animation: overSaturation 1.5s infinite ease-in !important;
+}
+
+@keyframes overSaturation {
+  from {
+    filter: saturate(.75);
+  }
+  50% {
+    filter: saturate(1.5)
+  }
+  to {
+    filter: saturate(.75);
+  }
 }
